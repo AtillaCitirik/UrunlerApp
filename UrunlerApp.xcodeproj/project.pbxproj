@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		452A7E9F2BF761D10094A8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7E9E2BF761D10094A8C6 /* AppDelegate.swift */; };
 		452A7EA12BF761D10094A8C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EA02BF761D10094A8C6 /* SceneDelegate.swift */; };
-		452A7EA32BF761D10094A8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EA22BF761D10094A8C6 /* ViewController.swift */; };
+		452A7EA32BF761D10094A8C6 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EA22BF761D10094A8C6 /* Anasayfa.swift */; };
 		452A7EA62BF761D10094A8C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 452A7EA52BF761D10094A8C6 /* Base */; };
 		452A7EA82BF761D30094A8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452A7EA72BF761D30094A8C6 /* Assets.xcassets */; };
 		452A7EAB2BF761D30094A8C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 452A7EAA2BF761D30094A8C6 /* Base */; };
+		452A7EB32BF762200094A8C6 /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EB22BF762200094A8C6 /* Urunler.swift */; };
+		452A7EB52BF762BB0094A8C6 /* DetaySayfaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EB42BF762BB0094A8C6 /* DetaySayfaViewController.swift */; };
+		452A7EB72BF7644F0094A8C6 /* UrunlerHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EB62BF7644F0094A8C6 /* UrunlerHucreTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		452A7E9B2BF761D10094A8C6 /* UrunlerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrunlerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452A7E9E2BF761D10094A8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		452A7EA02BF761D10094A8C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		452A7EA22BF761D10094A8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		452A7EA22BF761D10094A8C6 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		452A7EA52BF761D10094A8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		452A7EA72BF761D30094A8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452A7EAA2BF761D30094A8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		452A7EAC2BF761D30094A8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452A7EB22BF762200094A8C6 /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
+		452A7EB42BF762BB0094A8C6 /* DetaySayfaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfaViewController.swift; sourceTree = "<group>"; };
+		452A7EB62BF7644F0094A8C6 /* UrunlerHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunlerHucreTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				452A7E9E2BF761D10094A8C6 /* AppDelegate.swift */,
 				452A7EA02BF761D10094A8C6 /* SceneDelegate.swift */,
-				452A7EA22BF761D10094A8C6 /* ViewController.swift */,
+				452A7EA22BF761D10094A8C6 /* Anasayfa.swift */,
+				452A7EB22BF762200094A8C6 /* Urunler.swift */,
+				452A7EB62BF7644F0094A8C6 /* UrunlerHucreTableViewCell.swift */,
 				452A7EA42BF761D10094A8C6 /* Main.storyboard */,
 				452A7EA72BF761D30094A8C6 /* Assets.xcassets */,
 				452A7EA92BF761D30094A8C6 /* LaunchScreen.storyboard */,
 				452A7EAC2BF761D30094A8C6 /* Info.plist */,
+				452A7EB42BF762BB0094A8C6 /* DetaySayfaViewController.swift */,
 			);
 			path = UrunlerApp;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				452A7EA32BF761D10094A8C6 /* ViewController.swift in Sources */,
+				452A7EA32BF761D10094A8C6 /* Anasayfa.swift in Sources */,
+				452A7EB52BF762BB0094A8C6 /* DetaySayfaViewController.swift in Sources */,
+				452A7EB32BF762200094A8C6 /* Urunler.swift in Sources */,
+				452A7EB72BF7644F0094A8C6 /* UrunlerHucreTableViewCell.swift in Sources */,
 				452A7E9F2BF761D10094A8C6 /* AppDelegate.swift in Sources */,
 				452A7EA12BF761D10094A8C6 /* SceneDelegate.swift in Sources */,
 			);
